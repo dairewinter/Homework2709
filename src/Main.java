@@ -15,6 +15,7 @@ public class Main {
         System.out.println("Автор: " + smith.getName() + " " + smith.getSurname() + ", Книга: " + theYearOfTheMonkey.getTitle() + ", Год издания: " + theYearOfTheMonkey.getYearPublishing());
         theYearOfTheMonkey.setYearPublishing(2019);
         System.out.println("Предыдущий год издания The year of the Monkey = " + theYearOfTheMonkey.getYearPublishing());
+        System.out.println(dickens.toString());
 
 
     }
